@@ -22,9 +22,5 @@ public class Category {
 	//Type of category
 	private String name;
 	
-	
-	@ManyToOne(cascade=CascadeType.PERSIST)
-	private User user;
-	
 
 }

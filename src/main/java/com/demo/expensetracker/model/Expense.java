@@ -7,26 +7,32 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
 @Entity
+@NoArgsConstructor
+@Data
 @Table(name="expense")
 public class Expense {
-	
+
 	@Id
 	private Long id;
 	
 	private Instant expensedate;
 	
-	private String descript;
+	private String description;
 	
+	private String location;
+
 	@ManyToOne
 	private Category category;
 	
+	@JsonIgnore
 	@ManyToOne
 	private User user;
+
 
 }
