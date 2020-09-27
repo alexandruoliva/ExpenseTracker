@@ -27,6 +27,10 @@ public class Expense {
 	
 	private String location;
 
+	private String currency;
+
+	private int amount;
+
 	@ManyToOne
 	private Category category;
 	

@@ -1,4 +1,4 @@
-package com.example.demo.expensetracker.repository;
+package com.demo.expensetracker.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
