@@ -21,6 +21,9 @@ public class Category {
 	
 	//Type of category
 	private String name;
-	
 
+
+	public Long getId() {
+		return id;
+	}
 }
