@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
+import Category from './Category'
+
+
 
 ReactDOM.render(
-  <App />,
+  <Category />,
   document.getElementById('root')
 );
