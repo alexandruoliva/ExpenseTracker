@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Category from './Category'
+import Home from './Home'
 
 
 
 ReactDOM.render(
-  <Category />,
+  <Home />,
   document.getElementById('root')
 );
