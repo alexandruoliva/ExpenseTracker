@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-datepicker": "^3.2.2",
     "react-dom": "^16.13.1",
+    "react-moment": "^1.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "0.9.5"
   },
